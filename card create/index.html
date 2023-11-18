@@ -6,23 +6,24 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <title>Your Card</title>
 </head>
-<body class="flex items-center justify-center h-screen bg-gray-100">
-    <div class="max-w-md p-4 sm:p-6 bg-white rounded-md shadow-md sm:flex sm:items-center sm:justify-between ">
+<body class="flex items-center justify-center h-screen bg-gray-100 dark: bg-gray-900">
+    <div class="max-w-md p-4 sm:p-6 bg-white rounded-md shadow-md sm:flex sm:items-center sm:justify-between sm:dark:hover:bg-gray-950">
         <!-- Your Card Content -->
-        <div class="mb-4">
+        <div class="mb-4 sm:hover:bg-gray-900">
             <img src="img/Logo2.png" alt="Image" class="w-full h-50 object-cover rounded-md ring-4 ring-black">
         </div sm:text-left>
-        <div class="mb-4 text-center">
+        <div class="mb-4 text-center  ">
            <div>
-            <p class="text-gray-600 font-semibold text-lg ">Ansarul Muslimin.</p>
+            <p class="text-gray-600 font-semibold text-lg dark: text-red-800">Ansarul Muslimin.</p>
         </div>
         <div class="mb-4 text-center">
            
-            <p class="text-gray-600 mx-auto font-semibold sm:px-6">It is a non-profit organization.</p>
+            <p class="text-gray-600 mx-auto font-semibold sm:px-6 dark: text-red-800">It is a non-profit organization.</p>
         </div>
         <div class="flex justify-center ">
-            <button class="px-4 py-2 bg-blue-500 text-white rounded-md sm:px-6 sm:py-3 md:px-8 md:py-4 ">Click Me </button>
+            <button class="px-4 py-2 bg-blue-500 text-white rounded-md sm:px-6 sm:py-3 md:px-8 md:py-4 transition duration-300 ease-in-out hover:bg-blue-600 focus:outline-none focus:ring focus:border-red-300  dark:text-lime-600">Click Me </button>
         </div>
+    </div>
     </div>
     </div>
 </body>
